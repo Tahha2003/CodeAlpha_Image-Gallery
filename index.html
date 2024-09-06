@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Sections</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyGallery</div>
+            <ul class="nav-links">
+                <li><a href="#natural">Natural</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#aesthetic">Aesthetic</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gallery-section" id="natural">
+        <h2>Natural</h2>
+        <div class="gallery">
+            <img src="nature-4522878_640.jpg" alt="River" class="gallery-item">
+            <img src="roman-3620715_640.jpg" alt="Building" class="gallery-item">
+            <img src="landscape-8487906_640.jpg" alt="Nature" class="gallery-item">
+            <!-- Add more natural images as needed -->
+        </div>
+    </div>
+
+    <div class="gallery-section" id="cars">
+        <h2>Cars</h2>
+        <div class="gallery">
+            <img src="car-5548242_640.jpg" alt="Lamborghini" class="gallery-item">
+            <img src="car-8136751_640.jpg" alt="Aston Martin" class="gallery-item">
+            <img src="challenger-5880009_640.jpg" alt="Dodge Challenger" class="gallery-item">
+            <!-- Add more car images as needed -->
+        </div>
+    </div>
+
+    <div class="gallery-section" id="aesthetic">
+        <h2>Aesthetic</h2>
+        <div class="gallery">
+            <img src="leaf-8483401_640.jpg" alt="Leaf" class="gallery-item">
+            <img src="leaves-4621334_640.jpg" alt="Leaves" class="gallery-item">
+            <img src="apple-3938463_640.jpg" alt="Apple" class="gallery-item">
+            <!-- Add more aesthetic images as needed -->
+        </div>
+    </div>
+
+    <div class="gallery-section" id="gaming">
+        <h2>Gaming</h2>
+        <div class="gallery">
+            <img src="gaming-2259191_640.jpg" alt="Gaming" class="gallery-item">
+            <img src="gaming-computer-6903836_640.jpg" alt="Gaming Computer" class="gallery-item">
+            <img src="playstation-1845880_640.jpg" alt="Playstation" class="gallery-item">
+            <!-- Add more gaming images as needed -->
+        </div>
+    </div>
+
+    <!-- Modal for larger image view -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+<footer class="footer">
+    <p>&copy; 2024 - MyGallery by Rizwan Aleem Tahha | All Rights Reserved</p>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
